@@ -1,0 +1,113 @@
+
+main{
+    background-image:url("public\\images\\12812915_5055263.jpg") ;
+    background-size: 'cover';
+    background-position: 'center';
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Inter;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.form{
+    background-color: #09091d;
+    padding: 50px 80px;
+    border-radius: 20px;
+    border-style:solid;
+    opacity: 0.8;
+    border-color:  #09091d;
+    width: 330px;
+    background: -webkit-linear-gradient(
+        to right,
+        #09091d,
+        #000000
+    );
+    background: linear-gradient(
+        to right,
+        #09091d,
+        #000000
+    );
+    backdrop-filter: blur(10px);
+}
+.email{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.inputs>input{
+    margin-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color:rgb(47, 47, 47);
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.inputs>input:focus{
+    outline: none;
+    border-style: solid;
+    border-color: #0056eb;
+    color: white;
+    font-size: 16px;
+}
+.signin{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.signup-buttons{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.signup-buttons>button{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.create-button{
+    background-color:#1570EF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.google-button{
+    background-color:#26272B ;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 600;
+}
