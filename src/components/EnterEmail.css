@@ -1,0 +1,26 @@
+.email{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.email-input{
+    margin-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    border-width: 3px ;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.email-input:focus{
+    outline: none;
+    border-style: solid;
+    border-color: #0056eb;
+    font-size: 16px;
+}
+.enter-email{
+    display: flex;
+    flex-direction: column;
+}
